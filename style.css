@@ -45,3 +45,19 @@ img {
     width: 16rem;
     height: 13.3rem;
 }
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #98729e 14%,#626680 64%);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #4c4e61 14%,#704f75 64%);
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 10px;
+}
